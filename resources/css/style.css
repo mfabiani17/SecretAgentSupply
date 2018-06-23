@@ -148,3 +148,46 @@ footer {
     }
 
 }
+
+@media only screen and (max-width: 470px) {
+    .main-header {
+      height: 15rem;
+    }
+
+    .headline-box {
+      width: 100%;
+      padding: 1rem 2rem;
+      top: 10rem;
+    }
+
+    .headline-box h4 {
+      font-size: .77rem;
+    }
+
+    .headline-box h1 {
+      font-size: 1rem;
+    }
+
+    .products, .infos {
+      flex-wrap: wrap;
+    }
+
+    .product {
+      width: 90%;
+      margin: auto;
+    }
+
+    .product.watch {
+      display: none;
+    }
+
+    .info {
+      width: 90%;
+      margin: 0.5rem auto;
+    }
+
+    footer {
+      text-align: center;
+    }
+
+}
