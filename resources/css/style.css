@@ -124,22 +124,27 @@ footer {
   display: none;
 }
 
-@media only screen (max-width: 1024px) {
+@media only screen and (max-width: 1024px) {
+
     body {
       font-size: 16px;
     }
-    .nav ul {
+
+    nav ul {
       display:none;
     }
+
     .mobile-nav {
       display: block;
       text-align: center;
-   }
+    }
+
     .product {
       width: 47%;
     }
-    .infos {
-      width: 35%;
+
+    .product.sunglasses {
+      display: none;
     }
 
 }
